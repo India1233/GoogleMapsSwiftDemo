@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F96A4EAC0C0C30B22B43B49 /* Pods_GoogleMapsSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979AAEC57F8F9B3E3A195CF8 /* Pods_GoogleMapsSwiftDemoTests.framework */; };
+		4CE0288D264A1DC94885A075 /* Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBAC9EC4969305B9EA582D /* Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework */; };
+		58B645DF2A5922C82CAD927E /* Pods_GoogleMapsSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01717131D735CC0438D6D216 /* Pods_GoogleMapsSwiftDemo.framework */; };
 		D1E1F696238343FF00FF9170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F695238343FF00FF9170 /* AppDelegate.swift */; };
 		D1E1F698238343FF00FF9170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F697238343FF00FF9170 /* SceneDelegate.swift */; };
 		D1E1F69A238343FF00FF9170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F699238343FF00FF9170 /* ViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01717131D735CC0438D6D216 /* Pods_GoogleMapsSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FBAC9EC4969305B9EA582D /* Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D9B86C2D7A7AD9535AF52 /* Pods-GoogleMapsSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemoTests/Pods-GoogleMapsSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A05910A4AE1AE7321ECAD08 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B60FA8D5A59616267BA2729 /* Pods-GoogleMapsSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemo/Pods-GoogleMapsSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6A46BA4D09242AF838A3E613 /* Pods-GoogleMapsSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemo/Pods-GoogleMapsSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		763A6F18A0B87DB2AA991661 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F0E0309E99CE09B573C5BC /* Pods-GoogleMapsSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftDemoTests/Pods-GoogleMapsSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		979AAEC57F8F9B3E3A195CF8 /* Pods_GoogleMapsSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1F692238343FF00FF9170 /* GoogleMapsSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1F695238343FF00FF9170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E1F697238343FF00FF9170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B645DF2A5922C82CAD927E /* Pods_GoogleMapsSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F96A4EAC0C0C30B22B43B49 /* Pods_GoogleMapsSwiftDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE0288D264A1DC94885A075 /* Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63E34D2DD86FF2C0BC3DF972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01717131D735CC0438D6D216 /* Pods_GoogleMapsSwiftDemo.framework */,
+				11FBAC9EC4969305B9EA582D /* Pods_GoogleMapsSwiftDemo_GoogleMapsSwiftDemoUITests.framework */,
+				979AAEC57F8F9B3E3A195CF8 /* Pods_GoogleMapsSwiftDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9338C2DBBBC6937BD989FD58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B60FA8D5A59616267BA2729 /* Pods-GoogleMapsSwiftDemo.debug.xcconfig */,
+				6A46BA4D09242AF838A3E613 /* Pods-GoogleMapsSwiftDemo.release.xcconfig */,
+				763A6F18A0B87DB2AA991661 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.debug.xcconfig */,
+				2A05910A4AE1AE7321ECAD08 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.release.xcconfig */,
+				128D9B86C2D7A7AD9535AF52 /* Pods-GoogleMapsSwiftDemoTests.debug.xcconfig */,
+				80F0E0309E99CE09B573C5BC /* Pods-GoogleMapsSwiftDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1E1F689238343FF00FF9170 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				D1E1F6AB2383440300FF9170 /* GoogleMapsSwiftDemoTests */,
 				D1E1F6B62383440300FF9170 /* GoogleMapsSwiftDemoUITests */,
 				D1E1F693238343FF00FF9170 /* Products */,
+				9338C2DBBBC6937BD989FD58 /* Pods */,
+				63E34D2DD86FF2C0BC3DF972 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E1F6BC2383440300FF9170 /* Build configuration list for PBXNativeTarget "GoogleMapsSwiftDemo" */;
 			buildPhases = (
+				FA8A7CC6517F86085F63650E /* [CP] Check Pods Manifest.lock */,
 				D1E1F68E238343FF00FF9170 /* Sources */,
 				D1E1F68F238343FF00FF9170 /* Frameworks */,
 				D1E1F690238343FF00FF9170 /* Resources */,
+				A8120F6B758231E76E515A5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E1F6BF2383440300FF9170 /* Build configuration list for PBXNativeTarget "GoogleMapsSwiftDemoTests" */;
 			buildPhases = (
+				92F48001D69C0B4B291CA201 /* [CP] Check Pods Manifest.lock */,
 				D1E1F6A42383440300FF9170 /* Sources */,
 				D1E1F6A52383440300FF9170 /* Frameworks */,
 				D1E1F6A62383440300FF9170 /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E1F6C22383440300FF9170 /* Build configuration list for PBXNativeTarget "GoogleMapsSwiftDemoUITests" */;
 			buildPhases = (
+				1480667FE03041E6A4DF9B58 /* [CP] Check Pods Manifest.lock */,
 				D1E1F6AF2383440300FF9170 /* Sources */,
 				D1E1F6B02383440300FF9170 /* Frameworks */,
 				D1E1F6B12383440300FF9170 /* Resources */,
+				116FFEFE2F2510062C70FC57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116FFEFE2F2510062C70FC57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1480667FE03041E6A4DF9B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F48001D69C0B4B291CA201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsSwiftDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8120F6B758231E76E515A5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo/Pods-GoogleMapsSwiftDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo/Pods-GoogleMapsSwiftDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemo/Pods-GoogleMapsSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8A7CC6517F86085F63650E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1E1F68E238343FF00FF9170 /* Sources */ = {
@@ -432,9 +580,11 @@
 		};
 		D1E1F6BD2383440300FF9170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B60FA8D5A59616267BA2729 /* Pods-GoogleMapsSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = GoogleMapsSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +599,11 @@
 		};
 		D1E1F6BE2383440300FF9170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A46BA4D09242AF838A3E613 /* Pods-GoogleMapsSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = GoogleMapsSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +618,7 @@
 		};
 		D1E1F6C02383440300FF9170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128D9B86C2D7A7AD9535AF52 /* Pods-GoogleMapsSwiftDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +640,7 @@
 		};
 		D1E1F6C12383440300FF9170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F0E0309E99CE09B573C5BC /* Pods-GoogleMapsSwiftDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +662,7 @@
 		};
 		D1E1F6C32383440300FF9170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763A6F18A0B87DB2AA991661 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +682,7 @@
 		};
 		D1E1F6C42383440300FF9170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A05910A4AE1AE7321ECAD08 /* Pods-GoogleMapsSwiftDemo-GoogleMapsSwiftDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
